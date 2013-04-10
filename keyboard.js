@@ -2,6 +2,7 @@ $().ready(function(){
 
 	$('.upper').hide();
 
+// when a key is pressed, class of that key is set to 'depressed'
     document.onkeydown = document.body.onkeydown = function(e){
       	e = e || window.event;
       	var id = 'k' + (e.keyCode || e.which);
@@ -13,7 +14,7 @@ $().ready(function(){
       		
       	});
     };
-
+// when a key is unpressed, 'depressed' class is removed
     document.onkeyup = document.body.onkeydown = function(e){
       	e = e || window.event;
       	var id = 'k' + (e.keyCode || e.which);
