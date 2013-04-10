@@ -1,0 +1,86 @@
+p {
+	color: #a89c8d;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#mainCase {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 877px;
+}
+
+.key {
+	width: 5em;
+	height: 5em;
+	background-color: #f7f5ef;
+	color: #a89c8d;
+	font-family: 'Source Sans Pro', sans-serif;
+	border-top: 2px #f7f5ef solid;
+	border-left: 2px #f7f5ef solid;	
+	border-bottom: 2px #a89c8d solid;
+	border-right: 2px #a89c8d solid;
+}
+.key:active, .key.depressed {
+	background-color: #Edebe6;
+	border-color: #a89c8d;
+	border-left: 2px #a89c8d solid;
+	border-bottom: 2px #f7f5ef solid;
+	border-right: 2px #f7f5ef solid;
+}
+/* shifts */
+#k16 {
+	width: 7.5em;
+}
+/* caps */
+#k20 {
+	width: 10em;
+}
+/* tab */
+#k9{
+	width: 9em;
+}
+/* space */
+#k32{
+	width:26.5em;
+}
+/* command */
+#k91{
+	width:7em;
+}
+/* backspace */
+#k8 {
+	width: 10em;
+}
+/* arrow keys */
+#k37 {
+	height: 2.5em;
+}
+#k38 {
+	height: 2.5em;
+	display: inline;
+	margin-left:59px;
+}
+#k39 {
+	height: 2.5em;
+}
+#k40 {
+	height: 2.5em;
+}
+#arrowHolder {
+	width: 175px;
+	height: 5em;
+	float: right;
+}
+
+.rshift {
+	width: 10em;
+}
+
+
+
+

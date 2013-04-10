@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Keyboard</title>
+	<link rel='stylesheet' type='text/css' href='keyboard.css'/>
+	<script src="jquery.js"></script>
+    <script type="text/javascript" src="keyboard.js"></script>
+    <stype type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+
+<body background-color="#f7f5ef">
+	<p>Here is a keyboard. This keyboard will be used to make something awesome.</p>
+
+<div id="mainCase">
+<div id="keyboard">
+	<button id="k192" class="key"><div class="label">&#167;</div></button>
+	<button id="k49" class="key" key=1 ><div class="label">1</div></button>
+	<button id="k50" class="key"><div class="label">2</div></button>
+	<button id="k51" class="key"><div class="label">3</div></button>
+	<button id="k52" class="key"><div class="label">4</div></button>
+	<button id="k53" class="key"><div class="label">5</div></button>
+	<button id="k54" class="key"><div class="label">6</div></button>
+	<button id="k55" class="key"><div class="label">7</div></button>
+	<button id="k56" class="key"><div class="label">8</div></button>
+	<button id="k57" class="key"><div class="label">9</div></button>
+	<button id="k48" class="key"><div class="label">0</div></button>
+	<button id="k189" class="key"><div class="label">-</div></button>
+	<button id="k187" class="key"><div class="label">=</div></button>
+	<button id="k8" class="key" onclick="javascript:window.location = 'http://scottadams.co.uk';"><span class="label">&#8592;</span></button>
+	<br/>
+	<button id="k9" class="key"><span class="label">tab</span></button>
+	<button id="k81" class="key"><div class="label lower">q</div><div class="label upper">Q</div></button>
+	<button id="k87" class="key"><div class="label lower">w</div><div class="label upper">W</div></button>
+	<button id="k69" class="key"><div class="label lower">e</div><div class="label upper">E</div></button>
+	<button id="k82" class="key"><div class="label lower">r</div><div class="label upper">R</div></button>
+	<button id="k84" class="key"><div class="label lower">t</div><div class="label upper">T</div></button>
+	<button id="k89" class="key"><div class="label lower">y</div><div class="label upper">Y</div></button>
+	<button id="k85" class="key"><div class="label lower">u</div><div class="label upper">U</div></button>
+	<button id="k73" class="key"><div class="label lower">i</div><div class="label upper">I</div></button>
+	<button id="k79" class="key"><div class="label lower">o</div><div class="label upper">O</div></button>
+	<button id="k80" class="key"><div class="label lower">p</div><div class="label upper">P</div></button>
+	<button id="k219" class="key"><div class="label">[</div></button>
+	<button id="k221" class="key"><div class="label">]</div></button>
+	<button id="k13" class="key" style="width: 6em"><div class="label">&#8629;</div></button>
+	<br/>
+	<button id="k20" class="key"><span class="label">caps lock</span></button>
+	<button id="k65" class="key"><div class="label lower">a</div><div class="label upper">A</div></button>
+	<button id="k83" class="key"><div class="label lower">s</div><div class="label upper">S</div></button>
+	<button id="k68" class="key"><div class="label lower">d</div><div class="label upper">D</div></button>
+	<button id="k70" class="key"><div class="label lower">f</div><div class="label upper">F</div></button>
+	<button id="k71" class="key"><div class="label lower">g</div><div class="label upper">G</div></button>
+	<button id="k72" class="key"><div class="label lower">h</div><div class="label upper">H</div></button>
+	<button id="k74" class="key"><div class="label lower">j</div><div class="label upper">J</div></button>
+	<button id="k75" class="key"><div class="label lower">k</div><div class="label upper">K</div></button>
+	<button id="k76" class="key"><div class="label lower">l</div><div class="label upper">L</div></button>
+	<button id="k186" class="key"><div class="label">;</div></button>
+	<button id="k222" class="key"><div class="label">'</div></button>
+	<button id="k220" class="key"><div class="label">\</div></button>
+	<button id="k13" class="key"><span class="label">^</span></button>
+	<br/>
+	<button id="k16" class="key"><span class="label">shift</span></button>
+	<button id="k192" class="key"><div class="label">`</div></button>
+	<button id="k90" class="key"><div class="label lower">z</div><div class="label upper">Z</div></button>
+	<button id="k88" class="key"><div class="label lower">x</div><div class="label upper">X</div></button>
+	<button id="k67" class="key"><div class="label lower">c</div><div class="label upper">C</div></button>
+	<button id="k86" class="key"><div class="label lower">v</div><div class="label upper">V</div></button>
+	<button id="k66" class="key"><div class="label lower">b</div><div class="label upper">B</div></button>
+	<button id="k78" class="key"><div class="label lower">n</div><div class="label upper">N</div></button>
+	<button id="k77" class="key"><div class="label lower">m</div><div class="label upper">M</div></button>
+	<button id="k188" class="key"><div class="label">,</div></button>
+	<button id="k190" class="key"><div class="label">.</div></button>
+	<button id="k191" class="key"><div class="label">/</div></button>
+	<button id="k16" class="key" style="width: 12.86em"><span class="label">shift</span></button>
+	<br/>
+	<button id="fn" class="key"><span class="label">fn</span></button>
+	<button id="k17" class="key"><span class="label">ctrl</span></button>
+	<button id="k18" class="key"><span class="label">alt</span></button>
+	<button id="k91" class="key"><span class="label">cmd</span></button>
+	<button id="k32" class="key"><span class="label">space</span></button>
+	<button id="k91" class="key"><span class="label">cmd</span></button>
+	<button id="k18" class="key"><span class="label">alt</span></button>
+	<div id="arrowHolder">
+		<button id="k38" class="key"><span class="label">&#8593;</span></button><br/>
+		<button id="k37" class="key"><span class="label">&#8592;</span></button>
+		<button id="k40" class="key"><span class="label">&#8595;</span></button>
+		<button id="k39" class="key"><span class="label">&#8594;</span></button>
+	</div>
+	<br/></div></div>
+
+	<p>
+		<button id="header" class="key" onclick="javascript:window.location = 'http://youtu.be/ijTQE1jWClo?t=3s';"><div font-size="15em">Do not press</div></button>
+
+	</p>
+
+	<div>
+		<!-- audio files section, http:// pianosounds.pixelass.com/tones/grand-piano/ -->
+		
+		<audio id="tone-1C" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1C.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1C.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1Cs" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Cs.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Cs.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1D" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1D.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1D.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1Ds" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Ds.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Ds.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1E" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1E.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1E.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1F" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1F.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1F.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1Fs" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Fs.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Fs.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1G" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1G.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1G.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1Gs" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Gs.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1Gs.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1A" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1A.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1A.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1As" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1As.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1As.mp3" type="audio/mpeg"></source>
+		</audio>
+		<audio id="tone-1B" preload="auto" controls>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1B.ogg" type="audio/ogg"></source>
+			<source src="http://pianosounds.pixelass.com/tones/grand-piano/1B.mp3" type="audio/mpeg"></source>
+		</audio>
+	
+	</div>
+
+
+</body>
+</html>
